@@ -43,7 +43,6 @@ h2{
 nav li{
   display:inline;
   padding-right:20px;
-
 }
 
 nav a{
@@ -215,8 +214,8 @@ first div in the grid  and place it in the grid. */
 
   /* Step 9: Write the selector/rule property to style the nav element */
 @media (min-width: 800px) {
-    .nav {
-        align-items: end;
+    nav {
+        text-align: right;
         padding-top: 30px;
         padding-bottom: 30px;
     }
